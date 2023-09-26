@@ -1,0 +1,76 @@
+#ifndef SECUENCIALES_H_INCLUDED
+#define SECUENCIALES_H_INCLUDED
+#include "Articulo.h"
+
+//Recibo por parámetro una Lista de Artículos, el id del que busco, pos y resultado como variables globales, y la cantidad cargados
+//pos es una variable que almacena la posición en la que encontramos el artículo
+//resultado es una variable que almacena un booleano si logramos localizar o no el artículo
+//typeEstructura es una variable que denota con que estructura estamos trabajando
+
+void localizarSec(Articulo *arreglo, char idBuscado, int *pos, int *rLocalizar, int cargados, int typeEstructura){
+    //Función strcmpi (No usamos strcmp porque es CaseSensitive)
+    //0 si a = b
+    //<0 si a < b
+    //>0 si a > b
+    *pos = 0; *rLocalizar = 0;
+
+    if(typeEstructura == 3){
+        while (*pos<cargados && strcmpi(arreglo[*pos].codigo, idBuscado)<0){
+            (*pos)++;
+        }
+
+        if (*pos == cargados){
+            *rLocalizar = 0;
+        } else {
+            *rLocalizar = (strcmpi(arreglo[*pos].codigo, idBuscado)==0);
+        }
+
+        //Preguntar porque tiene que ir un if o si puede ir solo *resultado = (strcmpi(arreglo[*pos].codigo, idBuscado)=0
+
+    } else if (typeEstructura == 4){
+        // li inclusivo, ls exclusivo, segmento más grande a la izquierda, testigo a la derecha
+        int li=0,ls=cargados+1;
+
+        //pos es el testigo
+        (*pos) = floor((li+ls+1)/2);
+
+        while (li < ls - 1){
+
+            if (strcmpi(arreglo[*pos].codigo, idBuscado) <= 0){
+                li = (*pos);
+            } else {
+                ls = (*pos);
+            }
+
+        (*pos) = floor((li+ls+1)/2);
+        //Reiteramos la consigna
+        }
+
+        *rLocalizar = (strcmpi(arreglo[*pos].codigo, idBuscado) == 0);
+    }
+}
+
+void altaSec(Articulo *arreglo, char idBuscado, int *pos, int cargados, int *rAlta, int typeEstructura){
+
+}
+
+void evocarSec(Articulo *arreglo, char idBuscado, int *pos, int cargados, int *rEvocar, int typeEstructura){
+    int rLocalizar = 0;
+
+    localizarSec(arreglo, idBuscado, pos, rLocalizar, cargados, typeEstructura);
+
+    if (rLocalizar == 1){
+        *rEvocar = 1;
+        return arreglo[*pos];
+    } else {
+        *rEvocar = 0;
+    }
+}
+
+//    ---
+//  |---[ ] Amongus de la suerte
+//  |-----
+//  |-----
+//    - -
+
+#endif // SECUENCIALES_H_INCLUDED

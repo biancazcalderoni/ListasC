@@ -1,0 +1,153 @@
+# depslib dependency file v1.0
+1651477752 source:c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1651468008 c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1651436766 c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\articulo.h
+
+1651476116 c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1651362027 source:h:\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1650918425 h:\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1649022594 h:\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\articulo.h
+
+1650918438 h:\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1649678445 source:c:\users\santi\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1649647487 c:\users\santi\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1649022594 c:\users\santi\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\articulo.h
+
+1649462043 c:\users\santi\mi unidad\eda\2022\pmi 1\p1-grupo1 - 3-4-22\p1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1651486534 source:c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\p1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1651486805 c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\p1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1651436766 c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\p1-grupo1\articulo.h
+
+1651488633 c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\p1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1651488867 source:c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\rp1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1651844061 c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\rp1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1651436766 c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\rp1-grupo1\articulo.h
+
+1651850416 c:\users\santi\desktop\nueva carpeta\p1-grupo1 - 3-4-22\rp1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1655476532 source:c:\users\santi\mi unidad\eda\2022\pmi 1\rp1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1655474585 c:\users\santi\mi unidad\eda\2022\pmi 1\rp1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1651436766 c:\users\santi\mi unidad\eda\2022\pmi 1\rp1-grupo1\articulo.h
+
+1656904632 c:\users\santi\mi unidad\eda\2022\pmi 1\rp1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1655476532 source:c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\rp1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1655474585 c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\rp1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1651436766 c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\rp1-grupo1\articulo.h
+
+1655476004 c:\users\santi\google drive (poloswebdesign@gmail.com)\eda\2022\pmi 1\rp1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1655476532 source:c:\users\biane\onedrive\escritorio\eda\adicional\rp1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1655474585 c:\users\biane\onedrive\escritorio\eda\adicional\rp1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1651436766 c:\users\biane\onedrive\escritorio\eda\adicional\rp1-grupo1\articulo.h
+
+1656948005 c:\users\biane\onedrive\escritorio\eda\adicional\rp1-grupo1\vinculadas.h
+	"Articulo.h"
+
+1656963247 source:c:\users\santi\mi unidad\eda\2022\adicional\rp1-grupo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Secuenciales.h"
+	"Vinculadas.h"
+
+1655474585 c:\users\santi\mi unidad\eda\2022\adicional\rp1-grupo1\secuenciales.h
+	"Articulo.h"
+
+1651436766 c:\users\santi\mi unidad\eda\2022\adicional\rp1-grupo1\articulo.h
+
+1656948005 c:\users\santi\mi unidad\eda\2022\adicional\rp1-grupo1\vinculadas.h
+	"Articulo.h"
+
